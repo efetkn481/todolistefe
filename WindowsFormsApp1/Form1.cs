@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             if (ChcEkle3.Checked && !listBox1.Items.Contains(TxtMessage3.Text))
             {
                 listBox1.Items.Add(TxtMessage3.Text);
-                MessageBox.Show("eklenme tarihi " + DateTime.Now.ToString());
+                MessageBox.Show("eklenme tarihi: " + DateTime.Now.ToString());
             }
             else if (!ChcEkle3.Checked)
             {
